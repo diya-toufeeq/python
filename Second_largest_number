@@ -1,3 +1,12 @@
+***SECOND LARGEST NUMBER 
+Get three unique numbers(int) from user
+find second largest num: 
+ex: n1=10
+    n2=23
+    n3=12***
+
+
+
 n1=int(input("Enter the value of n1:"))
 n2=int(input("Enter the value of n2:"))
 n3=int(input("Enter the value of n3:"))
@@ -16,3 +25,11 @@ else:
        print("Second largest: ",n1)
     else:
         print("Second largest: ",n2)
+
+
+
+-->OUTPUT:
+Enter the value of n1:10
+Enter the value of n2:23
+Enter the value of n3:12 
+Second largest: 12
