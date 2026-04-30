@@ -1,0 +1,17 @@
+***GRAPHIC VISUALIZATION ROTATING BOX PROGRAM USING TURTLE LIBRARY*** 
+
+
+
+
+import turtle
+t=turtle.Turtle()
+for i in range(20):
+    t.forward(100)
+    t.left(90)
+t.done
+
+
+
+
+
+(DOES NOT WORK IN ONLINE COMPILERS)
