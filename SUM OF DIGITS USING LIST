@@ -1,0 +1,13 @@
+***sum of digits using list***
+
+
+---> CODE
+
+a=2026
+b=[int (i) for I in str(a)]
+print(sum(b))
+
+
+
+~OUTPUT 
+10
