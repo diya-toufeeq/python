@@ -1,0 +1,20 @@
+***DISPLAYING THE AVG MARKS OF EACH STUDENT***
+
+
+
+--->CODE
+
+names=["Diya","Sana","Hemanth","Cleo"]
+marks=[[40,20,10],[22,45,10],[30,36,26],[21,65,20]]
+for i in range(4):
+    a=sum(marks[i])//3
+    print("{}. {} has scored {}".format(i+1,names[i],a))
+
+
+
+~OUTPUT
+
+1. Diya has scored 23
+2. Sana has scored 25
+3. Hemanth has scored 30
+4. Cleo has scored 35
