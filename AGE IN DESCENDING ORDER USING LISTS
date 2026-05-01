@@ -1,0 +1,22 @@
+***DISPLAYING THE AGE OF THE PERSON IN DESCENDING ORDER(ELDEST FIRST)***
+
+
+--->CODE
+
+names=["Diya","Sana","Hemanth","Cleo"]
+age=[12,67,36,34]
+res=list(zip(age,names))
+res1=sorted(res,reverse=True)
+p=1
+for i in res1:
+    print("{}. {} age is {}".format(p, i[1],i[0]))
+    p=p+1
+
+
+
+~OUTPUT
+
+1. Sana age is 67
+2. Hemanth age is 36
+3. Cleo age is 34
+4. Diya age is 12
