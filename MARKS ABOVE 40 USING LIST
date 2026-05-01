@@ -1,0 +1,19 @@
+***DISPLAYING MARKS OF THE SUDENTS ABOVE 40***
+
+
+--->CODE
+
+names=["Diya","Sana","Hemanth","Cleo"]
+marks=[60,70,80,30]
+p=1
+for i in range(4):
+    if marks[i]>40:
+        print("{}. {} has scored {}%".format(p,names[i],marks[i]))
+        p=p+1
+
+
+
+~OUTPUT
+1. Diya has scored 60
+2. Sana has scored 70
+3. Hemanth has scored 80
