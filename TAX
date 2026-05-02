@@ -1,0 +1,21 @@
+***TAX ACCORDING TO DESIGNATION***
+
+
+
+name=input("Enter emp name: ")
+sal=int(input("Enter salary: "))
+desig=input("Enter position: ")
+a={'TL':10, 'Manager':20, 'Fresher':5, 'Developer':15}
+tax=sal * (a[desig]/100)
+print("TAX to be paid: ",tax)
+
+
+
+~OUTPUT
+
+name=input("Enter emp name: ")
+sal=int(input("Enter salary: "))
+desig=input("Enter position: ")
+a={'TL':10, 'Manager':20, 'Fresher':5, 'Developer':15}
+tax=sal * (a[desig]/100)
+print(tax)
