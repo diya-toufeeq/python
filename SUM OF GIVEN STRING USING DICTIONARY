@@ -1,0 +1,16 @@
+***PRINTING THE SUM OF THE GIVEN STRING USING DICTIONARY***
+
+
+
+--->CODE
+
+a="ABCAAAC"
+b={'A':0, 'B':1, 'C':10, 'D':100, 'E':1000, 'F':10000}
+sum=0
+for i in a:
+    sum=sum+b[i]
+print(sum)
+
+
+~OUTPUT
+21
