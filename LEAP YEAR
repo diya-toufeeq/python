@@ -1,0 +1,14 @@
+*** LEAP YEAR ***
+
+a=int(input("Enter the year: "))
+if(a%400==0) or (a%4==0 and a%100!=0):
+    print("yes",a)
+else:
+    print("No",a)
+
+
+
+~OUTPUT
+
+Enter the year: 2024
+yes 2024
