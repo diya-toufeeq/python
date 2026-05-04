@@ -1,0 +1,24 @@
+***FIBONACCI SERIES USING RECURSION***
+
+~CODE
+
+def fibo(i):
+    if i==0:
+        return 0
+    if i==1:
+        return 1
+    else:
+        return fibo(i-1) + fibo(i-2)
+
+
+a=int(input("Enter any number: "))
+for i in range(a):
+    x=fibo(i)
+    print(x,end=" ")
+
+
+
+~OUTPUT
+
+Enter any number: 10
+0 1 1 2 3 5 8 13 21 34 
