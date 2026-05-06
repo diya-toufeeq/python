@@ -1,0 +1,10 @@
+def abc(name="Guest"):
+    print("good morning: ",name)
+abc("Diya")
+abc()
+
+
+~OUTPUT
+
+good morning:  Diya
+good morning:  Guest
