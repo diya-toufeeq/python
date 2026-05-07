@@ -1,0 +1,22 @@
+*** STUDENT TABLE USING TABULATE LIBRARY ***
+
+from tabulate import tabulate
+title=["Name","Age","Department"]
+data=[["Sana",20,"CSM"],
+      ["Diya",21,"CSM"],
+      ["Tanuu",22,"CSE"],                                     [runs only on vs code]
+      ["Cleo",23,"CIVIL"]]
+res=tabulate(data,headers=title,tablefmt="pretty")
+print(res)
+
+
+
+
+~ Output:  +--------+-----+------------+
+           | Name   | Age | Department |
+           +--------+-----+------------+
+           | Sana   | 20  | CSM        |
+           | Diya   | 21  | CSM        |
+           | Tanuu  | 22  | CSE        |
+           | Cleo   | 23  | CIVIL      |
+           +--------+-----+------------+
